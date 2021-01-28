@@ -7,7 +7,7 @@ class Boy{
             length: 10
         }
         
-        this.boy1= loadImage("sprites/boy.png");
+        this.boy1= loadImage("boy.png");
         this.pointB = pointB
         this.boy = Constraint.create(options);
         World.add(world, this.boy);
